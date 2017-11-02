@@ -1,3 +1,12 @@
 Project 2 Documentation
 
-I'm a big fan of art, so for this project I decided to base my project off of 
+I'm a big fan of art, so for this project I decided to base my project off of the chibi matching card game, but theme it around art pieces I liked. I planned to expand the game by adding a timer, a score, and a gallery mode where the name of the piece, the artist and a link to the artist's website could be found. So I began to compile a list of the different pieces I wanted to use. While doing this, I came into the problem of wanting to use art by older artists who had died before the rise of the internet and thus didn't have a website to link to. The way I dealt with this is that if the artist had no website, I'd link to their wikipedia article. If they ahd no wikipedia article, I'd just say "No website available." 
+
+Now that all the pieces had been picked, I examined the starter code for the matching game until I had a thorough understanding of how it worked. Once I understood it, I changed the way the deck array was made so it could have all of the design from the spritesheet on it. then i changed the way the initBoard() method worked so that it would create more than 12 cards. In doing this I also had to change the css of the table to match.
+
+At this point I realized I should replace the spritesheet with the 
+
+Once I had that working, I determined the next thing to do would be to set up the menu buttons at the start of the game, that allowed the user to chose between playing the game and viewing the gallery.
+
+SOURCES
+
