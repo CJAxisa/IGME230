@@ -1,14 +1,18 @@
 Project 2 Documentation
 
-I'm a big fan of art, so for this project I decided to base my project off of the chibi matching card game, but theme it around art pieces I liked. I planned to expand the game by adding a timer, a score, and a gallery mode where the name of the piece, the artist and a link to the artist's website could be found. So I began to compile a list of the different pieces I wanted to use. While doing this, I came into the problem of wanting to use art by older artists who had died before the rise of the internet and thus didn't have a website to link to. The way I dealt with this is that if the artist had no website, I'd link to their wikipedia article. If they ahd no wikipedia article, I'd just say "No website available." 
-
-Now that all the pieces had been picked, I examined the starter code for the matching game until I had a thorough understanding of how it worked. Once I understood it, I changed the way the deck array was made so it could have all of the design from the spritesheet on it. then i changed the way the initBoard() method worked so that it would create more than 12 cards. In doing this I also had to change the css of the table to match.
-
-At this point I realized I should replace the spritesheet with my own. To do this I got previews of each of the art pieces I waanted to use and put them into the spritesheet for the cards.
-
-Once I had that working, I determined the next thing to do would be to set up the menu buttons at the start of the game, that allowed the user to chose between playing the game and viewing the gallery. These took a while to get them looking right. So once I had them showing up and visible by setting up their position, I Started to change all the other assets in the game to customize it.
+I'm a big fan of art, so for this project I decided to base my project off of the chibi matching card game, but theme it around art pieces I liked. I planned to expand the game by adding a timer, a score, and a gallery mode where the name of the piece, the artist and a link to the artist's website could be found. So I began to compile a list of the different pieces I wanted to use. While doing this, I came into the problem of wanting to use art by older artists who had died before the rise of the internet and thus didn't have a website to link to. The way I dealt with this is that if the artist had no website, I'd link to their wikipedia article. If they ahd no wikipedia article, I'd just say "No website available." Now that all the pieces had been picked, I examined the starter code for the matching game until I had a thorough understanding of how it worked. Once I understood it, I changed the way the deck array was made so it could have all of the design from the spritesheet on it. then i changed the way the initBoard() method worked so that it would create more than 12 cards. In doing this I also had to change the css of the table to match. At this point I realized I should replace the spritesheet with my own. To do this I got previews of each of the art pieces I wanted to use and put them into the spritesheet for the cards. once this was done I tested it and it worked so I moved on. Once I had that working, I determined the next thing to do would be to set up the menu buttons at the start of the game, that allowed the user to chose between playing the game and viewing the gallery. These took a while to get them looking right. So once I had them showing up and visible by setting up their position, I Started to change all the other assets in the game to customize it. This led to me adding a space background and a leather table texture as well as my own back-design for the cards. At this point I realized that I had not yet added the timer so that was my next move. I had to lookinto how to use requesstAnimationFrame() but after looking into it I was able to implement the timer with relative ease. After that I implemented the score. The way the score works is that it addss 50 points for each match, 5 points for each wrong match, and one point is lost every 2 seconds; however, the score will never go below 0. After all this I had to do was implement the gallery. To do this I made a InitGallery function to imitate the InitBoard but to work differently for the needs of the gallery. I was able to have it so that each card haad an attribute with it's name aand a link to its artist's website. Then I had these go to where the timer and score went in the regular game.
 
 SOURCES
+
+NON-CARD ASSETS USED:
+
+Seamless Space background from OpenGameArt.com (https://opengameart.org/sites/default/files/seamless%20space_0.PNG)
+
+Tarrot Card Back from Fotolia.com (https://t4.ftcdn.net/jpg/00/29/43/01/240_F_29430189_9ikgzatKzLXnkDvcbRYD8QSqE2O4oGYn.jpg)
+
+Leather Table texture gotten from VivaTerra.com (https://www.vivaterra.com/lee-industries-leather-ottoman.html)
+
+ART FOR THE CARDS:
 
 Mangchi - James Jean (http://www.jamesjean.com/) 
 https://i.pinimg.com/originals/a3/eb/2c/a3eb2ca8a525a48180f0ce0412260e7a.jpg 
