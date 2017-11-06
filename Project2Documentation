@@ -4,9 +4,62 @@ I'm a big fan of art, so for this project I decided to base my project off of th
 
 Now that all the pieces had been picked, I examined the starter code for the matching game until I had a thorough understanding of how it worked. Once I understood it, I changed the way the deck array was made so it could have all of the design from the spritesheet on it. then i changed the way the initBoard() method worked so that it would create more than 12 cards. In doing this I also had to change the css of the table to match.
 
-At this point I realized I should replace the spritesheet with the 
+At this point I realized I should replace the spritesheet with my own. To do this I got previews of each of the art pieces I waanted to use and put them into the spritesheet for the cards.
 
-Once I had that working, I determined the next thing to do would be to set up the menu buttons at the start of the game, that allowed the user to chose between playing the game and viewing the gallery.
+Once I had that working, I determined the next thing to do would be to set up the menu buttons at the start of the game, that allowed the user to chose between playing the game and viewing the gallery. These took a while to get them looking right. So once I had them showing up and visible by setting up their position, I Started to change all the other assets in the game to customize it.
 
 SOURCES
 
+Mangchi - James Jean (http://www.jamesjean.com/) 
+https://i.pinimg.com/originals/a3/eb/2c/a3eb2ca8a525a48180f0ce0412260e7a.jpg 
+Crayon Eater - James Jean (http://www.jamesjean.com/) 
+https://mayhemandmuse.com/wp-content/uploads/2014/07/A-boy-eating-crayons-draws-an-imaginative-scenario-around-himself-in-this-surreal-illustration-by-James-Jean-696x956.jpg
+Maze - James Jean (http://www.jamesjean.com/) 
+http://67.199.38.76/blog_detail/AA31B4_detail.JPG 
+Year of the Monkey - James Jean (http://www.jamesjean.com/) 
+https://static1.squarespace.com/static/5484b3b4e4b0883e5fe5efa4/56f43583c2ea51c1ea1164cb/56f43849171107e4682e616c/1458845917049/?format=500w 
+Ghost Migration - Laura Heikala (http://heikala.tictail.com/) 
+https://i.pinimg.com/originals/8e/c2/a3/8ec2a3a416f12e2768be82720e978459.jpg 
+Grandma’s Cloak - Laura Heikala (http://heikala.tictail.com/) 
+http://78.media.tumblr.com/24edef35275df16e53da9bcef22107af/tumblr_oye810PFQk1reyd40o1_1280.jpg 
+Some Puddles are Deeper than Others - Kat Philbin (https://www.etsy.com/shop/stupidanimalshop)
+https://img1.etsystatic.com/110/1/5176198/il_570xN.1011689219_1e68.jpg 
+The Lightkeeper - Kat Philbin (https://www.etsy.com/shop/stupidanimalshop)
+https://img1.etsystatic.com/111/1/5176198/il_570xN.1097676741_dlje.jpg 
+Homesickness - Rene Magritte (https://www.renemagritte.org/) 
+https://uploads4.wikiart.org/images/rene-magritte/homesickness-1940(1).jpg 
+Partners for Life - Andrew “Wahndur” Herndon (http://andrewherndon.com/)
+http://andrewherndon.com/images/portfolio/oricia/oricia1.jpg 
+Genbu - Jor (https://www.jor-ros.com/) 
+https://static1.squarespace.com/static/59eb225f18b27d7095ce47d3/59eb4b5ed55b414ff55cd4c2/59eb4d046f4ca3385d64a946/1508592907373/genbu.png?format=1000w 
+Iron Batter - Jor (https://www.jor-ros.com/) 
+https://static1.squarespace.com/static/59eb225f18b27d7095ce47d3/59eb3d648fd4d20db715b0ec/59eb4096dc2b4a47d4337f7e/1508589726861/Untitled-2.jpg?format=1000w 
+Untitled - Ben Montero (http://www.bjennymontero.com/) 
+https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/17266133_1171727026306765_2788198171908505600_n.jpg 
+
+Womb (cell) - Bang Sangho (https://www.bangsangho.com/) 
+https://static.wixstatic.com/media/1bcb4d_fdab172bd15c4fc1b10e60a3e97bd9b0~mv2_d_2760_3000_s_4_2.png/v1/fill/w_738,h_802,al_c,usm_0.66_1.00_0.01/1bcb4d_fdab172bd15c4fc1b10e60a3e97bd9b0~mv2_d_2760_3000_s_4_2.png 
+Dream Child (library) - Bang Sangho (https://www.bangsangho.com/) 
+https://static.wixstatic.com/media/1bcb4d_c46673da171b4f12a52d09c8fc8ec3c3~mv2_d_3000_3000_s_4_2.jpg/v1/fill/w_802,h_802,al_c,q_90,usm_0.66_1.00_0.01/1bcb4d_c46673da171b4f12a52d09c8fc8ec3c3~mv2_d_3000_3000_s_4_2.webp 
+Robot is Dead - Waldemar von Kozak (https://waldemar-kazak.deviantart.com/)
+https://orig00.deviantart.net/1c8e/f/2008/175/9/6/robot_is_dead_by_waldemar_kazak.jpg
+The Rabbit Cover - George Wylesol (http://wylesol.com/)
+https://i2.wp.com/www.comicsbeat.com/wp-content/uploads/2017/10/Wylesol2.jpg?resize=700%2C1000 
+NeoWave Series - James White (http://signalnoise.com/) 
+https://pro2-bar-s3-cdn-cf6.myportfolio.com/1fabf4ed77f805d754b14c5b7b6b7fb1/a69a2ab0affcdee5d1f16a92_rw_1200.jpg?h=0a74040760225e0b36e8447eb58ba48a 
+Night Visions - Jill Hoffman (https://www.etsy.com/shop/TheDreamwood) 
+https://68.media.tumblr.com/2dd63eb9c91c05b8424acaee8d341f6e/tumblr_olnc6sEc1i1r48ob4o1_500.jpg 
+Cover for Agatha Christie’s Destination Unknown- Tom Adams (https://en.wikipedia.org/wiki/Tom_Adams_(illustrator)) 
+https://i.pinimg.com/736x/5c/69/ce/5c69ce733e67a73b5b65995e65e0d873--psychedelic-art-sci-fi-art.jpg 
+Crystal Singer Cover - Michael Whelan (http://www.michaelwhelan.com/)
+http://lcrazzy1.narod.ru/image/fantasy/michael_whelan/michael_whelan__crystal_singer.jpg
+Watchmen- Dave Gibbons (https://en.wikipedia.org/wiki/Dave_Gibbons) 
+http://static.comicvine.com/uploads/original/12/125570/3140896-4376861312-63290.jpg
+Creatures - David M Cook (https://dmcook.carbonmade.com/) 
+https://i.pinimg.com/originals/e4/86/2e/e4862e530d7e7097d5cbebe2a9811dbf.jpg 
+Untitled - Little Oil (http://littleoil.tumblr.com/) 
+https://pbs.twimg.com/media/C3_ZeTZUkAAMHV6.jpg 
+Nasturtiums & Poppies & Rio Grande Patterns - Stephen Quiller (https://www.quillergallery.com/) 
+https://www.quillergallery.com/images/igallery/resized/1-100/41_nasturtiums_poppies_rio_grande_patterns-42-900-550-95.jpg
+Harris Light - Scott Naismith (http://scottnaismith.com/) 
+http://scottnaismith.com/buy-online/wp-content/uploads/2013/07/50HarrisLight.jpg 
